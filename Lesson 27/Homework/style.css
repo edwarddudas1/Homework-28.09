@@ -1,0 +1,67 @@
+body{
+    background-color: grey;
+}
+
+.Contact{
+    background-color: blue;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.modal{
+    display: none;
+}
+.active{
+    display: block;
+}
+.modal-p{
+    border-radius: 4px;
+    background: #FFF;
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    width: 528px;
+    height: 581px;
+    position: relative;
+    left: 25%;
+}
+.close-button{
+    position: absolute;
+    right: 2%;
+    top: 1%;
+    cursor: pointer;
+}
+.modal-p>h1{
+    color: #212121;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    padding-top: 40px;
+}
+.inputs{
+    border-radius: 4px;
+    margin: 4px 40px;
+    border: 1px solid rgba(33, 33, 33, 0.20);
+    width: 448px;
+    height: 40px;
+}
+.name-1{
+    margin-left: 40px;
+}
+.input-coment{
+    width: 448px;
+    height: 120px;
+    border-radius: 4px;
+    border: 1px solid rgba(33, 33, 33, 0.20);
+    margin: 4px 40px;
+}
+.conditions-of-the-contract{
+    display: flex;
+    margin-left: 76px;
+}
+.text-conditions-of-the-contract{
+    margin-top: 16px;
+}
